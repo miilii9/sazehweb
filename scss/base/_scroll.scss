@@ -1,0 +1,24 @@
+// Google Chrome
+*::-webkit-scrollbar {
+  width:  8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: $cl-5;
+  border-radius: 2px;
+}
+
+*::-webkit-scrollbar-track {
+  background: $cl-3;
+}
+
+* {
+  // Internet Explorer
+  scrollbar-face-color: $cl-5;
+  scrollbar-track-color: $cl-3;
+
+  // Firefox
+  scrollbar-color: $cl-4 $cl-3;
+  scrollbar-width: thin;
+}

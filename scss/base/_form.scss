@@ -1,0 +1,52 @@
+.main-front-layout{
+	%input {
+		display: flex;
+		align-items: center;
+		max-width: unset;
+		min-width: unset;
+		width: 100%;
+		background-color: #f7f9fa;
+		border: 1px solid #d1d7dc;
+		border-radius: $border-radius-inputs;
+		padding: 10px 12px;
+		font-size: 90%;
+	}
+
+	label {
+		display: block;
+	}
+
+	input {
+		@extend %input;
+	}
+
+	textarea {
+		@extend %input;
+		resize: none;
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+
+	button {
+		//padding: 0;
+		border: none;
+		display: inline-block;
+		cursor: pointer;
+	}
+
+	// Chrome
+	::-webkit-input-placeholder {
+		color: $cl-placeholder;
+	}
+	// Firefox
+	::-moz-placeholder {
+		color: $cl-placeholder;
+	}
+	:-moz-placeholder {
+		color: $cl-placeholder;
+	}
+	// Internet Explorer
+	:-ms-input-placeholder {
+		color: $cl-placeholder;
+	}
+}

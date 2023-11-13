@@ -1,0 +1,55 @@
+html {
+	scroll-behavior: smooth;
+}
+html,
+body {
+	-o-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	background-color: $cl-body;
+	//color: $cl_for;
+	//fill: $cl-for;
+	background-color: #ffffff;
+}
+.no-js {
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main-front-layout{
+  direction: rtl;
+  *{
+    direction: rtl;
+  }
+  .rtl{
+    direction: rtl !important;
+  }
+  .ltr{
+    direction: ltr !important;
+  }
+  .transform-origin-center{
+    transform-origin: center !important;
+  }
+  .text-color {
+    color: $text-color !important;
+  }
+  .cl-pr-1 {
+    color: $cl-pr-1 !important;
+  }
+  .cl-pr-2 {
+    color: $cl-pr-2 !important;
+  }
+  .cl-pr-3 {
+    color: $cl-pr-3 !important;
+  }
+  .cl-pr-4 {
+    color: $cl-pr-4 !important;
+  }
+}

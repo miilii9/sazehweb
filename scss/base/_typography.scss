@@ -1,0 +1,245 @@
+@import '../abstract/mixins';
+@font-face {
+	font-family: 'iransansxv';
+	src: url('fonts/iransansxv/IRANSansXV.woff') format('woff-variations'),
+		/* will be the standard and works in Safari now */
+	url('fonts/iransansxv/IRANSansXV.woff') format('woff');
+	/* for the other supporting browsers */
+	font-weight: 100 900;
+	font-display: fallback;
+
+}
+//////////////////////////////////
+@font-face {
+	font-family: iransansx;
+	font-style: normal;
+	src: url('fonts/iran-sans-x/woff/IRANSansXFaNum-Thin.woff') format('woff'),
+	url('fonts/iran-sans-x/woff2/IRANSansXFaNum-Thin.woff2') format('woff2');
+}
+@font-face {
+	font-family: iransansx;
+	font-style: normal;
+	font-weight: 200;
+	src: url('fonts/iran-sans-x/woff/IRANSansXFaNum-UltraLight.woff') format('woff'),
+	url('fonts/iran-sans-x/woff2/IRANSansXFaNum-UltraLight.woff2') format('woff2');
+}
+@font-face {
+	font-family: iransansx;
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/iran-sans-x/woff/IRANSansXFaNum-Light.woff') format('woff'),
+	url('fonts/iran-sans-x/woff2/IRANSansXFaNum-Light.woff2') format('woff2');
+}
+@font-face {
+	font-family: iransansx;
+	font-style: normal;
+	font-weight: 500;
+	src: url('fonts/iran-sans-x/woff/IRANSansXFaNum-Medium.woff') format('woff'),
+	url('fonts/iran-sans-x/woff2/IRANSansXFaNum-Medium.woff2') format('woff2');
+}
+@font-face {
+	font-family: iransansx;
+	font-style: normal;
+	font-weight: 600;
+	src: url('fonts/iran-sans-x/woff/IRANSansXFaNum-DemiBold.woff') format('woff'),
+	url('fonts/iran-sans-x/woff2/IRANSansXFaNum-DemiBold.woff2') format('woff2');
+}
+@font-face {
+	font-family: iransansx;
+	font-style: normal;
+	font-weight: 800;
+	src: url('fonts/iran-sans-x/woff/IRANSansXFaNum-ExtraBold.woff') format('woff'),
+	url('fonts/iran-sans-x/woff2/IRANSansXFaNum-ExtraBold.woff2') format('woff2');
+}
+@font-face {
+	font-family: iransansx;
+	font-style: normal;
+	font-weight: 900;
+	src: url('fonts/iran-sans-x/woff/IRANSansXFaNum-Black.woff') format('woff'),
+	url('fonts/iran-sans-x/woff2/IRANSansXFaNum-Black.woff2') format('woff2');
+}
+@font-face {
+	font-family: iransansx;
+	font-style: normal;
+	font-weight: bold;
+	src: url('fonts/iran-sans-x/woff/IRANSansXFaNum-Bold.woff') format('woff'),
+	url('fonts/iran-sans-x/woff2/IRANSansXFaNum-Bold.woff2') format('woff2');
+}
+@font-face {
+	font-family: iransansx;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/iran-sans-x/woff/IRANSansXFaNum-Regular.woff') format('woff'),
+	url('fonts/iran-sans-x/woff2/IRANSansXFaNum-Regular.woff2') format('woff2');
+}
+///////////////
+@font-face {
+	font-family: 'Almarai-Bold';
+	src:url('fonts/almari/Almarai-Bold.woff') format('woff'),
+	url('fonts/almari/Almarai-Bold.woff2') format('woff2'),
+	url('fonts/almari/Almarai-Bold.svg#Almarai-Bold') format('svg'),
+	url('fonts/almari/Almarai-Bold.eot'),
+	url('fonts/almari/Almarai-Bold.eot?#iefix') format('embedded-opentype'),
+	url('fonts/almari/Almarai-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Almarai-Bold';
+	src:url('fonts/Almarai-ExtraBold/Almarai-ExtraBold.woff') format('woff'),
+	url('fonts/Almarai-ExtraBold/Almarai-ExtraBold.woff2') format('woff2'),
+	url('fonts/Almarai-ExtraBold/Almarai-ExtraBold.svg#Almarai-ExtraBold') format('svg'),
+	url('fonts/Almarai-ExtraBold/Almarai-ExtraBold.eot'),
+	url('fonts/Almarai-ExtraBold/Almarai-ExtraBold.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Almarai-ExtraBold/Almarai-ExtraBold.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+////////////
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: bold;
+	src: url('fonts/iranyekan/eot/iranyekanwebboldfanum.eot');
+	src: url('fonts/iranyekan/eot/iranyekanwebboldfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('fonts/iranyekan/woff/iranyekanwebboldfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('fonts/iranyekan/ttf/iranyekanwebboldfanum.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 100;
+	src: url('fonts/iranyekan/eot/iranyekanwebthinfanum.eot');
+	src: url('fonts/iranyekan/eot/iranyekanwebthinfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('fonts/iranyekan/woff/iranyekanwebthinfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('fonts/iranyekan/ttf/iranyekanwebthinfanum.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/iranyekan/eot/iranyekanweblightfanum.eot');
+	src: url('fonts/iranyekan/eot/iranyekanweblightfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('fonts/iranyekan/woff/iranyekanweblightfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('fonts/iranyekan/ttf/iranyekanweblightfanum.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/iranyekan/eot/iranyekanwebregularfanum.eot');
+	src: url('fonts/iranyekan/eot/iranyekanwebregularfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('fonts/iranyekan/woff/iranyekanwebregularfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('fonts/iranyekan/ttf/iranyekanwebregularfanum.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 500;
+	src: url('fonts/iranyekan/eot/iranyekanwebmediumfanum.eot');
+	src: url('fonts/iranyekan/eot/iranyekanwebmediumfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('fonts/iranyekan/woff/iranyekanwebmediumfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('fonts/iranyekan/ttf/iranyekanwebmediumfanum.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 800;
+	src: url('fonts/iranyekan/eot/iranyekanwebextraboldfanum.eot');
+	src: url('fonts/iranyekan/eot/iranyekanwebextraboldfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('fonts/iranyekan/woff/iranyekanwebextraboldfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('fonts/iranyekan/ttf/iranyekanwebextraboldfanum.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 900;
+	src: url('fonts/iranyekan/eot/iranyekanwebblackfanum.eot');
+	src: url('fonts/iranyekan/eot/iranyekanwebblackfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('fonts/iranyekan/woff/iranyekanwebblackfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('fonts/iranyekan/ttf/iranyekanwebblackfanum.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 950;
+	src: url('fonts/iranyekan/eot/iranyekanwebextrablackfanum.eot');
+	src: url('fonts/iranyekan/eot/iranyekanwebextrablackfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('fonts/iranyekan/woff/iranyekanwebextrablackfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('fonts/iranyekan/ttf/iranyekanwebextrablackfanum.ttf') format('truetype');
+}
+////////////
+.main-front-layout{
+	* {
+		font-family: 'iransansx', iranyekan, tahoma;
+		letter-spacing: 0;
+	}
+	.almarai{
+		font-family: 'Almarai-Bold' !important;
+	}.almarai-extra{
+		 font-family: 'Almarai-Bold' !important;
+	 }
+	.iranyekan{
+		font-family: 'iranyekan' !important;
+	}
+	body {
+		line-height: 1.7;
+		font-size: 15px;
+	}
+	p {
+		font-size: 100%;
+		//line-height: 171%;
+		line-height: 230%;
+		//margin-bottom: 10px;
+		&.justify {
+			text-align: justify;
+		}
+	}
+	.large-font{
+		font-size: 300%;
+	}
+	h1, h2, h3, h4, h5, h6,
+	.h1, .h2, .h3, .h4, .h5, .h6 {
+		font-weight: bold;
+		display: block;
+	}
+	h1, .h1 {
+		font-size: 210%;
+	}
+	h2, .h2 {
+		font-size: 190%;
+	}
+	h3, .h3 {
+		font-size: 170%;
+	}
+	h4, .h4 {
+		font-size: 150%;
+	}
+	h5, .h5 {
+		font-size: 130%;
+	}
+	h6, .h6 {
+		font-size: 120%;
+	}
+	small {
+		font-size: 85%;
+	}
+	.normal-text {
+		font-size: 100%;
+		font-weight: normal;
+	}
+	@include max_media('md'){
+		h1, .h1 {
+			font-size: 190%;
+		}
+	}
+}
